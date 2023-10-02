@@ -13,4 +13,6 @@ Lab 2 Screenshoots:
 
 ![lab2_2](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c5bfd043-fb12-42a4-af95-847474841967)
 
+Lab 5 Random Words:
+![lab5BCDV4028](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/3960f464-033b-44b6-aeb9-bac0b162564d)
 
