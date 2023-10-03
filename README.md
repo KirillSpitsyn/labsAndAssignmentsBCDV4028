@@ -13,6 +13,9 @@ Lab 2 Screenshoots:
 
 ![lab2_2](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c5bfd043-fb12-42a4-af95-847474841967)
 
+Lab3 Unit Test Demonstartion:
+![lab3Testing](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c710c70f-1753-458f-8536-a1022e70a7ca)
+
 Assignment 1.
 My deployment wallet address on Sepolia: 0xa4D9a34F699c37A504773816Fce6A96a24aca564
 My deployment wallet address on Ganache: 0x82eb03b49FC1E1444089aAe7617AEB8dDc378bD9
