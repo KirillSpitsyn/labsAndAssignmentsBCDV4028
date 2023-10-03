@@ -13,7 +13,7 @@ Lab 2 Screenshoots:
 
 ![lab2_2](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c5bfd043-fb12-42a4-af95-847474841967)
 
-Lab3 Unit Test Demonstartion:
+Lab3 Unit tests Demonstration:
 ![lab3Testing](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c710c70f-1753-458f-8536-a1022e70a7ca)
 
 Assignment 1.
