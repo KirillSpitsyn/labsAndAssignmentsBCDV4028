@@ -13,6 +13,9 @@ Lab 2 Screenshoots:
 
 ![lab2_2](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c5bfd043-fb12-42a4-af95-847474841967)
 
+Assignment 1 Testing Bridge Contract. Files can be found in testAssignment1 folder in 
+![bridgeTestScreenShot](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c890def1-8954-4fd6-b718-5ad05f750e9e)
+
 Assignment 1. Screenshots demonstrating token transfers from Ganache Local Network to Sepolia Network. For this process, I 
 created 200 tokens on each network, and transferred 20 TTA tokens from Ganache local network to Sepolia network using the bridge contracts
 on both networks. Bridge contract receives tokens from the sender, locks them, and then script get the Transfer signal for minting tokens
