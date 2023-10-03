@@ -13,7 +13,9 @@ Lab 2 Screenshoots:
 
 ![lab2_2](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c5bfd043-fb12-42a4-af95-847474841967)
 
-Assignment 1 Testing Bridge Contract. Files can be found in testAssignment1 folder in 
+Assignment 1 Testing Bridge Contract. Files can be found in testAssignment1 folder inside BCDV4028 Assignment 1 folder. I created 2 
+different tokens to test the contract, and I tested functionality for receiving tokens to the bridge smart contract and sending tokens
+from the bridge smart contract. Also, I tested that the initial values during contract deployment were set correctly.
 ![bridgeTestScreenShot](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c890def1-8954-4fd6-b718-5ad05f750e9e)
 
 Assignment 1. Screenshots demonstrating token transfers from Ganache Local Network to Sepolia Network. For this process, I 
