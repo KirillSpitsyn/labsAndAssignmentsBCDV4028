@@ -13,6 +13,10 @@ Lab 2 Screenshoots:
 
 ![lab2_2](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c5bfd043-fb12-42a4-af95-847474841967)
 
+Assignment 1.
+My deployment wallet address on Sepolia: 0xa4D9a34F699c37A504773816Fce6A96a24aca564
+My deployment wallet address on Ganache: 0x82eb03b49FC1E1444089aAe7617AEB8dDc378bD9
+
 Assignment 1 Testing Bridge Contract. Files can be found in testAssignment1 folder inside BCDV4028 Assignment 1 folder. I created 2 
 different tokens to test the contract, and I tested functionality for receiving tokens to the bridge smart contract and sending tokens
 from the bridge smart contract. Also, I tested that the initial values during contract deployment were set correctly.
