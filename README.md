@@ -13,8 +13,11 @@ Lab 2 Screenshoots:
 
 ![lab2_2](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c5bfd043-fb12-42a4-af95-847474841967)
 
-Lab3 Unit tests Demonstration:
+Lab 3 Unit tests Demonstration:
 ![lab3Testing](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/07a116dd-16ee-4a20-82e6-3db8537c9a81)
+
+Lab 3 Simulation Test Demonstration:
+![lab3SimulationTest](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/f7438aff-07ed-48ad-abc2-61106a40fbee)
 
 Assignment 1.
 My deployment wallet address on Sepolia: 0xa4D9a34F699c37A504773816Fce6A96a24aca564
