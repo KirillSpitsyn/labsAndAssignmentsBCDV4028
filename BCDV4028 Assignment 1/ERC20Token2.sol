@@ -28,6 +28,7 @@ contract ERC20 is IERC20 {
     string public symbol = "TTB";
     uint8 public decimals = 18;
 
+    //allows to transfer tokens from the smart contract to other addresses
     function transfer(address recipient, uint amount) external returns (bool) {
         balanceOf[msg.sender] -= amount;
         balanceOf[recipient] += amount;
@@ -41,11 +42,8 @@ contract ERC20 is IERC20 {
         return true;
     }
 
-    function transferFrom(
-        address sender,
-        address recipient,
-        uint amount
-    ) external returns (bool) {
+    //allows to send tokens from the external address to another address 
+    function transferFrom(address sender, address recipient, uint amount) external returns (bool) {
         allowance[sender][msg.sender] -= amount;
         balanceOf[sender] -= amount;
         balanceOf[recipient] += amount;
@@ -53,12 +51,14 @@ contract ERC20 is IERC20 {
         return true;
     }
 
+    //allows minting new tokens and increases the total token supply
     function mint(uint amount) external {
         balanceOf[msg.sender] += amount;
         totalSupply += amount;
         emit Transfer(address(0), msg.sender, amount);
     }
 
+    //allows to burn tokens from the smart contract by sending them to 0 address and decreasing token total supply
     function burn(uint amount) external {
         balanceOf[msg.sender] -= amount;
         totalSupply -= amount;
