@@ -14,7 +14,7 @@ Lab 2 Screenshoots:
 ![lab2_2](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c5bfd043-fb12-42a4-af95-847474841967)
 
 Lab3 Unit tests Demonstration:
-![assignment1UnitTests](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/2e8d55e3-2f34-461a-888d-6c429afb0ec1)
+![lab3Testing](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/07a116dd-16ee-4a20-82e6-3db8537c9a81)
 
 Assignment 1.
 My deployment wallet address on Sepolia: 0xa4D9a34F699c37A504773816Fce6A96a24aca564
@@ -22,8 +22,9 @@ My deployment wallet address on Ganache: 0x82eb03b49FC1E1444089aAe7617AEB8dDc378
 
 Assignment 1 Testing Bridge Contract. Files can be found in testAssignment1 folder inside BCDV4028 Assignment 1 folder. I created 2 
 different tokens to test the contract, and I tested functionality for receiving tokens to the bridge smart contract and sending tokens
-from the bridge smart contract. Also, I tested that the initial values during contract deployment were set correctly.
-![bridgeTestScreenShot](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/c890def1-8954-4fd6-b718-5ad05f750e9e)
+from the bridge smart contract. Also, I tested that the initial values during contract deployment were set correctly, and tested that
+tokens shouldn't be sent if balance is too low
+![assignment1UnitTests](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/3ebec005-1bac-4ae4-86d3-b04612790cb2)
 
 Assignment 1. Screenshots demonstrating token transfers from Ganache Local Network to Sepolia Network. For this process, I 
 created 200 tokens on each network, and transferred 20 TTA tokens from Ganache local network to Sepolia network using the bridge contracts
