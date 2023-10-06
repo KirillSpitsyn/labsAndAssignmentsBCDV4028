@@ -23,16 +23,16 @@ Assignment 1.
 My deployment wallet address on Sepolia: 0xa4D9a34F699c37A504773816Fce6A96a24aca564
 My deployment wallet address on Ganache: 0x82eb03b49FC1E1444089aAe7617AEB8dDc378bD9
 
-Assignment 1 Testing Bridge Contract. Files can be found in testAssignment1 folder inside BCDV4028 Assignment 1 folder. I created 2 
+Assignment 1 Testing Bridge Contract. Files can be found in the testAssignment1 folder inside the BCDV4028 Assignment 1 folder. I created 2 
 different tokens to test the contract, and I tested functionality for receiving tokens to the bridge smart contract and sending tokens
 from the bridge smart contract. Also, I tested that the initial values during contract deployment were set correctly, and tested that
-tokens shouldn't be sent if balance is too low
+tokens shouldn't be sent if the balance is too low
 ![assignment1UnitTests](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/3ebec005-1bac-4ae4-86d3-b04612790cb2)
 
 Assignment 1. Screenshots demonstrating token transfers from Ganache Local Network to Sepolia Network. For this process, I 
-created 200 tokens on each network, and transferred 20 TTA tokens from Ganache local network to Sepolia network using the bridge contracts
-on both networks. Bridge contract receives tokens from the sender, locks them, and then script get the Transfer signal for minting tokens
-on another network using a smart contract for creating tokens on another network, and then bridge on another network receives transferred 
+created 200 tokens on each network, and transferred 20 TTA tokens from the Ganache local network to the Sepolia network using the bridge contracts
+on both networks. The bridge contract receives tokens from the sender, locks them, and then the script gets the Transfer signal for minting tokens
+on another network using a smart contract for creating tokens on another network, and then the bridge on another network receives transferred 
 tokens and send them to the destination address.
 
 ![assignment1Screen1](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/e573972f-56ae-4b69-98d6-5c7de5f8a8dd)
@@ -46,6 +46,7 @@ Lab 5 Random Words:
 ![lab5BCDV4028](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/3960f464-033b-44b6-aeb9-bac0b162564d)
 
 
-Assignment 2 NFT Minting and Displaying Demonstration:
-https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/a1481b34-36a7-41aa-8554-3696f3138d0d
+Assignment 2 NFT Minting and Displaying on AccountDemonstration:
+https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/18fea807-a44f-4042-b399-d054d2384146
+
 
