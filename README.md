@@ -46,7 +46,7 @@ Lab 5 Random Words:
 ![lab5BCDV4028](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/3960f464-033b-44b6-aeb9-bac0b162564d)
 
 
-Assignment 2 NFT Minting and Displaying on AccountDemonstration:
+Assignment 2 NFT Minting and Displaying on Account Demonstration:
 https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/18fea807-a44f-4042-b399-d054d2384146
 
 
