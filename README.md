@@ -38,6 +38,7 @@ tokens and send them to the destination address using the script.
 Minting initial tokens on Sepolia and Ganache networks:
 ![assignment1Screen1](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/e573972f-56ae-4b69-98d6-5c7de5f8a8dd)
 ![assignemnt1Screen2](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/75ceaf25-6ff4-4e49-8053-04429b3f88ea)
+Token TTA that bridged from Ganache local network to Sepolia network
 ![assignment1_11](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/5aa08350-e1ca-40c0-b8ed-4177dde313a5)
 ![scrren1_11](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/7d5f08aa-efe5-44ed-bd1b-36c29e7762bc)
 ![screen333](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/b9f8f670-79b9-4979-878e-5bee052f39f2)
