@@ -25,8 +25,8 @@ My deployment wallet address on Ganache: 0x82eb03b49FC1E1444089aAe7617AEB8dDc378
 
 Assignment 1 Testing Bridge Contract. Files can be found in the testAssignment1 folder inside the BCDV4028 Assignment 1 folder. I created 2 
 different tokens to test the contract, and I tested functionality for receiving tokens to the bridge smart contract and sending tokens
-from the bridge smart contract. Also, I tested that the initial values during contract deployment were set correctly, and tested that
-tokens shouldn't be sent if the balance is too low
+from the bridge smart contract. Also, I tested that the initial values during contract deployment were set correctly, I tested that
+tokens shouldn't be sent if the balance is too low, and I tested that only the wallet can request sending tokens.
 ![assignment1UnitTests](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/3ebec005-1bac-4ae4-86d3-b04612790cb2)
 
 Assignment 1. Screenshots demonstrating token transfers from Ganache Local Network to Sepolia Network. For this process, I 
