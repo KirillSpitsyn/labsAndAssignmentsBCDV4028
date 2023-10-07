@@ -1,17 +1,22 @@
 import { useEffect, useState } from "react";
+import { ethers } from "ethers";
 import {
   connectWallet,
   getCurrentWalletConnected,
   mintNFT,
 } from "./util/interact.js";
+import DisplayNFT from "./displayNFT.js";
 
 const Minter = (props) => {
   const [walletAddress, setWallet] = useState("");
   const [status, setStatus] = useState("");
 
   const [name, setName] = useState("");
+  const [nfts, setNFTs] = useState([])
   const [description, setDescription] = useState("");
   const [url, setURL] = useState("");
+
+  const [isLoading, setIsLoading] = useState(true); 
 
   useEffect(async () => {
     const { address, status } = await getCurrentWalletConnected();
@@ -19,7 +24,21 @@ const Minter = (props) => {
     setWallet(address);
     setStatus(status);
 
+    fetchNFTs().then(data => {
+      setNFTs(data.tokens)
+      console.log(data)
+    })
+
     addWalletListener();
+
+    onMintPressed().then(() => {
+      setTimeout(() => { 
+        setIsLoading(false); 
+      }, 50000); 
+    }).then(fetchNFTs().then(data => {
+      setNFTs(data.tokens)
+      console.log(data)
+    }))
   }, []);
 
   function addWalletListener() {
@@ -53,8 +72,18 @@ const Minter = (props) => {
     setWallet(walletResponse.address);
   };
 
+  const fetchNFTs = async () => {
+    const provider = new ethers.providers.JsonRpcProvider("https://solitary-practical-glitter.ethereum-sepolia.quiknode.pro/a265d1e74d56c8c68808f0bb27682d5fb9eb9e31/");
+    const nfts = await provider.send("qn_fetchNFTsByCollection", {
+      nft: walletAddress,
+      page: 1,
+      perPage: 10})
+    return nfts
+  }
+
   const onMintPressed = async () => {
     const { success, status } = await mintNFT(url, name, description);
+    
     setStatus(status);
     if (success) {
       setName("");
@@ -107,6 +136,14 @@ const Minter = (props) => {
       <p id="status" style={{ color: "red" }}>
         {status}
       </p>
+        <h3>NFT's on this account:</h3>
+        <DisplayNFT></DisplayNFT>
+        {!isLoading &&
+        <>
+        <h3>Your "{nfts[nfts.length()-1].name}" NFT that was just minted:</h3>
+        {nfts[nfts.length()-1].imageUrl}
+        </>
+        }
     </div>
   );
 };
