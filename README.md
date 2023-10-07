@@ -33,7 +33,7 @@ Assignment 1. Screenshots demonstrating token transfers from Ganache Local Netwo
 created 200 tokens on the Ganache and Sepolia networks, and I transferred 20 TTA tokens from the Ganache local network to the Sepolia network using the bridge contracts
 on both networks. The bridge contract receives tokens from the sender on one network (Ganche local Ethereum network or Sepolia Ethereum network), locks them, and then the script gets the Transfer signal for minting tokens
 on another blockchain network using a smart contract for creating tokens on another network, and then the bridge on another network receives transferred 
-tokens and send them to the destination address.
+tokens and send them to the destination address using the script.
 
 ![assignment1Screen1](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/e573972f-56ae-4b69-98d6-5c7de5f8a8dd)
 ![assignemnt1Screen2](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/75ceaf25-6ff4-4e49-8053-04429b3f88ea)
