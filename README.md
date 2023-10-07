@@ -30,9 +30,9 @@ tokens shouldn't be sent if the balance is too low
 ![assignment1UnitTests](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/3ebec005-1bac-4ae4-86d3-b04612790cb2)
 
 Assignment 1. Screenshots demonstrating token transfers from Ganache Local Network to Sepolia Network. For this process, I 
-created 200 tokens on each network, and transferred 20 TTA tokens from the Ganache local network to the Sepolia network using the bridge contracts
-on both networks. The bridge contract receives tokens from the sender, locks them, and then the script gets the Transfer signal for minting tokens
-on another network using a smart contract for creating tokens on another network, and then the bridge on another network receives transferred 
+created 200 tokens on the Ganache and Sepolia networks, and I transferred 20 TTA tokens from the Ganache local network to the Sepolia network using the bridge contracts
+on both networks. The bridge contract receives tokens from the sender on one network (Ganche local Ethereum network or Sepolia Ethereum network), locks them, and then the script gets the Transfer signal for minting tokens
+on another blockchain network using a smart contract for creating tokens on another network, and then the bridge on another network receives transferred 
 tokens and send them to the destination address.
 
 ![assignment1Screen1](https://github.com/KirillSpitsyn/labsAndAssignmentsBCDV4028/assets/72778161/e573972f-56ae-4b69-98d6-5c7de5f8a8dd)
